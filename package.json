@@ -1,0 +1,15 @@
+{
+  "name": "account-workshop",
+  "version": "1.0.0",
+  "description": "Full-stack member management system",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "node server/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
+}
